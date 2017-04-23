@@ -1,10 +1,10 @@
+from .models import Post, Comment
 from .forms import PostForm, CommentForm
 from django.shortcuts import render
 from django.utils import timezone
 from .models import Post
 from django.shortcuts import render, get_object_or_404
 from .forms import PostForm
-from .models import Post, Comment
 from django.contrib.auth.decorators import login_required
 
 
